@@ -1,0 +1,24 @@
+.logoBarComponent{  
+    display: flex;
+    flex: 1 100%;
+    /* background: url("../../zdjęcia/tła/hd-wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay\ .jpg") center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-color: rgb(4,4,4); */
+    justify-content:space-between;
+    align-items: center;
+}
+.logoImg {
+    padding: 0.5%;
+    flex:0 15%;
+    width: 20%;
+    height: auto;
+}
+.title{
+    display: flex;
+    flex: 0 80%;
+    justify-content:flex-end;
+    color: rgb(220,220,220);
+    font-size: 3rem;
+    padding:1%
+}
