@@ -1,14 +1,16 @@
 import React from 'react'
-import "./home.css"
+import "./home2.css"
 import homePhoto from "../../zdjęcia/homePhoto.jpg"
+import LogoBar from "./logoBar"
 
-function home() {
+
+function Home2() {
   return (
     <div>
-        
+        <LogoBar />
         <img className="homePhoto" src={homePhoto} alt="playing orchestra"></img>
     </div>
   )
 }
 
-export default home
+export default Home2
