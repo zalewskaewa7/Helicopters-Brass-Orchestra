@@ -2,11 +2,11 @@
     width:100%;
     height: auto;
 }
-.logoBarComponent{  
+.mainBar{  
     display: flex;
     flex: 1 100%;
-    /* background: url("../../zdjęcia/tła/hd-wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay\ .jpg") center; */
-    background: url("../../zdjęcia/tła/wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay.jpg") center;
+     background: url("../../zdjęcia/tła/hd-wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay\ .jpg") center; 
+    /* background: url("../../zdjęcia/tła/wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay.jpg") center; */
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,15 +16,33 @@
 }
 .logoImg {
     padding: 0.5%;
-    flex:0 15%;
+    flex:0 10%;
     width: 20%;
     height: auto;
 }
-.title{
-    display: flex;
+
+
+.historyDiv{
+    padding: 2%;
+    background: url("../../zdjęcia/tła/template-Obraz\ ...♡...\ z\ Pixabay.jpg");
+    background: url("../../zdjęcia/tła/silver_Obraz\ Barbara\ A\ Lane\ z\ Pixabay.jpg") center; 
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    color: black;
+}
+
+.titleHistory{
+    opacity: 1;
+    color: black;
+}
+
+@media all and (max-width: 960px) {
+    .title{
+        display: flex;
     flex: 0 80%;
-    justify-content:center;
-    color: rgb(220,220,220);
-    font-size: 3rem;
-    padding:1%
+        justify-content:flex-end;
+
+    }
 }

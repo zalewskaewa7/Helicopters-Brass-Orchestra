@@ -2,3 +2,17 @@
     width:100%;
     height: auto;
 }
+.title{
+    display: flex;
+    flex: 1 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: rgb(220,220,220);
+    font-size: 3rem;
+    padding: 1%;
+    
+}
+.logoBar{
+    position:absolute;
+    top: 0;
+    }

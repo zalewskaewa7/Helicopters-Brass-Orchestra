@@ -1,9 +1,13 @@
 import React from 'react';
-import logo from "../../zdjęcia/logo/logoOK/logonew_HBO.png";
-import "./layout.css";
+import MainTitle from "./mainTitle"
 
-import Menu from "./menu";
-function LogoBar(){    
+
+
+import logo from "../../zdjęcia/logo/logoOK/logonew_HBO.png";
+import "../layout/layout.css";
+
+import Menu from "../layout/menu";
+function LogoBarHome(){    
         return (
     <div className="logoBarComponent">
       <div className='logoBarComponent_Menu'>
@@ -11,6 +15,10 @@ function LogoBar(){
     <Menu />
     </div>
      
+   <MainTitle />
+   
+
+      
     
     </div>
   )
@@ -18,4 +26,4 @@ function LogoBar(){
   
 
 
-export default LogoBar
+export default LogoBarHome

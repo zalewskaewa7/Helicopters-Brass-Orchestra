@@ -2,13 +2,12 @@ import React from 'react'
 import logo from "../../zdjęcia/logo/logoOK/logonew_HBO.png"
 import "./home2.css"
 
-function logoBar() {
+function mainBar() {
   return (
-    <div className="logoBarComponent">
+    <div className="mainBar">
     <img src={logo} alt="logo Helicopters Brass Orchestra" className="logoImg"></img>
-    <h1 className="title">HELICOPTERS BRASS ORCHESTRA</h1>
     </div>
   )
 }
 
-export default logoBar
+export default mainBar

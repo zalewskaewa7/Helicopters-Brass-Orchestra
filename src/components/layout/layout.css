@@ -1,10 +1,26 @@
 .logoBarComponent{  
     display: flex;
     flex: 1 100%;
-    /* background: url("../../zdjęcia/tła/hd-wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay\ .jpg") center;
+    flex-direction: row;
+    flex-wrap: wrap;
+     /* background: url("../../zdjęcia/tła/hd-wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay\ .jpg") center;  */
+    background: url("../../zdjęcia/tła/wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay.jpg") center;
+    /* background: url("../../zdjęcia/tła/silver_Obraz\ Barbara\ A\ Lane\ z\ Pixabay.jpg") center;  */
+    /* background: url("../../zdjęcia/tła/template-Obraz\ ...♡...\ z\ Pixabay.jpg"); */
+    /* background: url("../../zdjęcia/tła/bokeh-Obraz\ Barbara\ A\ Lane\ z\ Pixabay\ .jpg") center; */
+    /* background: url("../../zdjęcia/tła/water-Obraz\ wal_172619\ z\ Pixabay\ .jpg") center; */
+
+
+
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     /* background-color: rgb(4,4,4); */
+    justify-content:space-between;
+    align-items: center;
+}
+.logoBarComponent_Menu{
+    display: flex;
+    flex: 0 90%;
     justify-content:space-between;
     align-items: center;
 }
@@ -14,11 +30,35 @@
     width: 20%;
     height: auto;
 }
-.title{
+
+.menu{
     display: flex;
     flex: 0 80%;
-    justify-content:flex-end;
-    color: rgb(220,220,220);
-    font-size: 3rem;
-    padding:1%
+    flex-wrap: nowrap;
+    align-self: center;
+    margin: 1%;
+
+}
+.menuUl{
+    display: flex;
+    flex: 1 100%;
+    flex-wrap: nowrap;
+    align-self: center;
+
+    justify-content: flex-end;
+    
+    color:rgb(220,220,220);
+    
+}
+
+.menuUl li{
+    list-style-type: none;
+    margin: 0.5%;
+    padding: 0.5%;
+    display: inline;
+}
+.menuUl li a {
+    text-decoration: none;
+    color:rgb(220,220,220);
+    font-size: 1rem;
 }
