@@ -7,12 +7,14 @@
     flex: 1 100%;
     justify-content: flex-end;
     align-items: flex-end;
-    color: rgb(220,220,220);
+    color:rgb(37,148,212);
     font-size: 3rem;
+    text-shadow: 0.05em 0.05em 0.05em rgb(220,220,220);
+
     padding: 1%;
     
 }
-.logoBar{
+.logoBarHomeComponent{
     position:absolute;
     top: 0;
     }

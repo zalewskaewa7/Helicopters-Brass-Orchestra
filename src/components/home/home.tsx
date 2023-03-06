@@ -6,7 +6,7 @@ import homePhoto from "../../zdjęcia/homePhoto.jpg"
 function Home() {
   return (
     <div>
-        <div className="logoBar"><LogoBarHome /></div>
+        <LogoBarHome />
         <img className="homePhoto" src={homePhoto} alt="playing orchestra"></img>
     </div>
   )

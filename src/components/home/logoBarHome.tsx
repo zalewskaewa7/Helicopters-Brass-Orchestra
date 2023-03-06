@@ -4,12 +4,12 @@ import MainTitle from "./mainTitle"
 
 
 import logo from "../../zdjęcia/logo/logoOK/logonew_HBO.png";
-import "../layout/layout.css";
+import "./home.css";
 
 import Menu from "../layout/menu";
 function LogoBarHome(){    
         return (
-    <div className="logoBarComponent">
+    <div className="logoBarHomeComponent">
       <div className='logoBarComponent_Menu'>
 <img src={logo} alt="logo Helicopters Brass Orchestra" className="logoImg"></img>
     <Menu />

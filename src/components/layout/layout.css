@@ -4,12 +4,13 @@
     flex-direction: row;
     flex-wrap: wrap;
      /* background: url("../../zdjęcia/tła/hd-wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay\ .jpg") center;  */
-    background: url("../../zdjęcia/tła/wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay.jpg") center;
-    /* background: url("../../zdjęcia/tła/silver_Obraz\ Barbara\ A\ Lane\ z\ Pixabay.jpg") center;  */
+    /* background: url("../../zdjęcia/tła/wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay.jpg") center; */
+    /* background: url("../../zdjęcia/tła/silver_Obraz\ Barbara\ A\ Lane\ z\ Pixabay.jpg");  */
     /* background: url("../../zdjęcia/tła/template-Obraz\ ...♡...\ z\ Pixabay.jpg"); */
     /* background: url("../../zdjęcia/tła/bokeh-Obraz\ Barbara\ A\ Lane\ z\ Pixabay\ .jpg") center; */
     /* background: url("../../zdjęcia/tła/water-Obraz\ wal_172619\ z\ Pixabay\ .jpg") center; */
-
+    background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("../../zdjęcia/tła/wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay.jpg");
+    /* background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("../../zdjęcia/tła/silver_Obraz\ Barbara\ A\ Lane\ z\ Pixabay.jpg"); */
 
 
     background-repeat: no-repeat;
@@ -59,6 +60,8 @@
 }
 .menuUl li a {
     text-decoration: none;
-    color:rgb(220,220,220);
-    font-size: 1rem;
+    color:rgb(37,148,212);
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-shadow: 0.05em 0.05em 0.05em rgb(220,220,220);
 }
