@@ -1,4 +1,5 @@
 import React from 'react'
+import "../layout/layout.css"
 import "./about.css"
 import LogoBar from "../layout/logoBar"
 
@@ -7,7 +8,7 @@ function About() {
   return (
     <div>
         <LogoBar />
-        <div className='historyDiv'>
+        <div className='componentDiv'>
           <div className="aboutOrchestraDiv">
 
           <h1 className="aboutOrchestraTitle">Historia Orkiestry</h1>

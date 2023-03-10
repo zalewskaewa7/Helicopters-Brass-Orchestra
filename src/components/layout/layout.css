@@ -65,3 +65,18 @@
     font-weight: 700;
     text-shadow: 0.05em 0.05em 0.05em rgb(220,220,220);
 }
+.componentDiv{
+    padding: 2%;
+    /* background: url("../../zdjęcia/tła/template-Obraz\ ...♡...\ z\ Pixabay.jpg"); */
+    /* background: url("../../zdjęcia/tła/silver_Obraz\ Barbara\ A\ Lane\ z\ Pixabay.jpg") center;  */
+    /* background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../../zdjęcia/tła/silver_Obraz\ Barbara\ A\ Lane\ z\ Pixabay.jpg") center; */
+    /* background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url("../../zdjęcia/tła/wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay.jpg"); */
+
+    background: url("../../zdjęcia/tła/bokeh-Obraz\ Tomislav\ Jakupec\ z\ Pixabay.png");
+    /* background: url("../../zdjęcia/tła/bokeh-Obraz\ Barbara\ A\ Lane\ z\ Pixabay\ .jpg"); */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    color: rgb(49,57,68);
+}

@@ -8,15 +8,32 @@ import './index.css';
 import Home from './components/home/Home';
 import About from './components/about/About'
 import reportWebVitals from './reportWebVitals';
+import Contact from './components/contact/Contact';
+import Gallery from './components/gallery/Gallery';
+import Collaboration from './components/collaboration/Collaboration';
+// import LogoBar from './components/layout/logoBar';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+
   },
   {
     path: "/o nas",
     element: <About />,
+  },
+  {
+    path: "/kontakt",
+    element: <Contact />,
+  },
+  {
+    path: "/galeria",
+    element: <Gallery />,
+  },
+  {
+    path: "/współpraca",
+    element: <Collaboration />,
   },
 ]);
 
