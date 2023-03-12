@@ -2,6 +2,9 @@ import React from 'react'
 import "../layout/layout.css"
 import "./about.css"
 import LogoBar from "../layout/logoBar"
+import ImgAchievements from "../../zdjęcia/z Internetu/mokswidnik.jpg"
+import ImgHistory from "../../zdjęcia/z Internetu/archiwaOrkiestry(z historiaSwidnika).jpg"
+import ImgAboutOrchestra from "../../zdjęcia/z Internetu/radioLublin.jpg"
 
 
 function About() {
@@ -12,6 +15,8 @@ function About() {
           <div className="aboutOrchestraDiv">
 
           <h1 className="aboutOrchestraTitle">Historia Orkiestry</h1>
+          <img className="orchestraPhoto" src={ImgHistory} alt="orchestra"></img>
+
   <p>Jej początki sięgają 1952 roku, kiedy to przy Wytwórni Sprzętu Komunikacyjnego
 w Świdniku utworzono Zakładową Orkiestrę Dętą (pierwsza nazwa: Orkiestra Dęta WSK Świdnik). Orkiestra jest dziś najstarszym zespołem artystycznym miasta Świdnika, zespołem, który towarzyszył powstaniu i rozwojowi miasta oraz wszystkim najważniejszym wydarzeniom życia kulturalnego i społecznego.
 </p>
@@ -25,6 +30,9 @@ Przy ścisłej, wieloletniej współpracy z Miejskim Ośrodkiem Kultury w Świdn
     </div>
     <div className="aboutOrchestraDiv">
       <h2 className="aboutOrchestraTitle">O zespole</h2>
+      <img className="orchestraPhoto" src={ImgAboutOrchestra} alt="orchestra"></img>
+
+
       <p>
       Od prawie 70 lat towarzyszy mieszkańcom Świdnika w czasie najważniejszych świąt i uroczystości. Obok śmigłowca jest symbolem miasta, znanym w kraju i za granicą. Starsza niż miasto Świdnik, ale nadal chętnie słuchana i wysoko oceniana przez publiczność i krytyków muzycznych. Wielokrotnie nagradzana na polskich oraz międzynarodowych festiwalach i konkursach.
 
@@ -44,6 +52,7 @@ Rok 2022 kończy już 7 dekadę działania orkiestry która, wciąż aktywnie uc
 
 <div className="aboutOrchestraDiv">
   <h2 className="aboutOrchestraTitle">Osiągnięcia</h2>
+  <img className="orchestraPhoto" src={ImgAchievements} alt="orchestra"></img>
   <p>O randze zespołu świadczy powiększające się grono wielbicieli, coroczne zaproszenia od organizatorów festiwali w całej Europie i naturalnie liczne laury, zdobywane na znaczących imprezach muzycznych w kraju i za granicą. Przyznany orkiestrze Dyplom Honorowy Ministra Kultury i Sztuki jest dowodem uznania za wielokrotne zwycięstwa w konkursach i festiwalach orkiestr dętych, m.in. w Poznaniu, Biłgoraju, Kolbuszowej, Rastede i Husum (Niemcy), Wilnie (Litwa), Debreczynie, Szombathely i Koeszeg (Węgry).
 </p>
   <p>Orkiestra koncertowała również w Czechach i na Białorusi, a w roku 2000 uczestniczyła w EXPO 2000 w Hannowerze. Brała udział w programach telewizyjnych.

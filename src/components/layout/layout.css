@@ -21,13 +21,13 @@
 }
 .logoBarComponent_Menu{
     display: flex;
-    flex: 0 90%;
+    flex: 1 100%;
     justify-content:space-between;
     align-items: center;
 }
 .logoImg {
     padding: 0.5%;
-    flex:0 15%;
+    flex:0 12%;
     width: 20%;
     height: auto;
 }
@@ -61,7 +61,7 @@
 .menuUl li a {
     text-decoration: none;
     color:rgb(37,148,212);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 700;
     text-shadow: 0.05em 0.05em 0.05em rgb(220,220,220);
 }

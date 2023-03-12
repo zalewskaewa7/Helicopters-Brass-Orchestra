@@ -12,9 +12,17 @@
     text-shadow: 0.05em 0.05em 0.05em rgb(220,220,220);
 
     padding: 1%;
+    margin: 0;
     
 }
 .logoBarHomeComponent{
     position:absolute;
     top: 0;
     }
+
+ .logoImgHome {
+    padding: 0.5%;
+    flex:0 12%;
+    width: 20%;
+    height: auto;
+}

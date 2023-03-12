@@ -1,11 +1,31 @@
-.aboutOrchestraTitle{
-    color: rgb(37,148,212);
-    text-shadow: 0.05em 0.05em 0.05em rgb(220,220,220);
 
+
+.aboutOrchestraDiv{
+    display: flex;
+    flex-flow: row wrap;
+     justify-content: center;
+     align-items: center;
 }
 
+.aboutOrchestraTitle{
+    display: flex;
+    justify-content: center;
+    flex: 0 80%;
+    color: rgb(37,148,212);
+    text-shadow: 0.05em 0.05em 0.05em rgb(220,220,220);
+    
+
+
+}
 .aboutOrchestraDiv p{
     text-align: justify;
+    
+}
+
+
+.orchestraPhoto{
+    display: flex;
+    flex: 0 80%;
 }
 
 

@@ -11,7 +11,7 @@ function LogoBarHome(){
         return (
     <div className="logoBarHomeComponent">
       <div className='logoBarComponent_Menu'>
-<img src={logo} alt="logo Helicopters Brass Orchestra" className="logoImg"></img>
+<img src={logo} alt="logo Helicopters Brass Orchestra" className="logoImgHome"></img>
     <Menu />
     </div>
      
