@@ -1,10 +1,22 @@
+.componentDiv{
+    padding: 2%;
+    background: url("../../zdjęcia/tła/bokeh-Obraz\ Tomislav\ Jakupec\ z\ Pixabay.png") center;
+    /* background: url("../../zdjęcia/tła/bokeh-g0e2717490_1920.png") center; */
 
+    /* background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("../../zdjęcia/tła/silver_Obraz\ Barbara\ A\ Lane\ z\ Pixabay.jpg"); */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    color: rgb(49,57,68);
+}
 
 .aboutOrchestraDiv{
     display: flex;
     flex-flow: row wrap;
      justify-content: center;
      align-items: center;
+
 }
 
 .aboutOrchestraTitle{

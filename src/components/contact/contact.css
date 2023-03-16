@@ -1,0 +1,38 @@
+.Conductors{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.contactInformation h2{
+    color: rgb(37,148,212);
+    text-shadow: 0.08em 0.08em 0.08em rgb(220,220,220);
+
+}
+
+.conductorPhoto{
+    width: 40%;
+    height: auto;
+}
+.mailMap{
+    display: flex;
+    justify-content:center;
+   flex-flow: row wrap;
+   align-items: center;
+     
+     padding: 1%;
+}
+.mail, .map {
+    display: flex;
+    flex: 0 90%;
+    flex-flow: column wrap;
+    align-items: center;
+
+    justify-content:center;
+    margin: 2% 0;
+}
+
+.mail h2, .map h2 {
+    color: rgb(37,148,212);
+    text-shadow: 0.08em 0.08em 0.08em rgb(220,220,220);
+
+}
