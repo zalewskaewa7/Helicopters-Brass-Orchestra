@@ -1,17 +1,29 @@
 .Conductors{
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
 }
+.contactInformation {
+    display: flex;
+    flex-flow: row wrap;
+     flex: 0 80%;
+     margin: 2%;
+     justify-content:center;
+     align-items: center;
+}
 .contactInformation h2{
+   
     color: rgb(37,148,212);
     text-shadow: 0.08em 0.08em 0.08em rgb(220,220,220);
+    letter-spacing: 2px;
 
 }
 
 .conductorPhoto{
-    width: 40%;
+    width: 60%;
     height: auto;
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px rgb(37,148,212);
 }
 .mailMap{
     display: flex;
@@ -29,10 +41,18 @@
 
     justify-content:center;
     margin: 2% 0;
+    padding: 2%;
 }
 
 .mail h2, .map h2 {
+    display: flex;
     color: rgb(37,148,212);
     text-shadow: 0.08em 0.08em 0.08em rgb(220,220,220);
+    letter-spacing: 2px;
+    text-align: center;
 
+}
+.mapImage{
+    width: 600px;
+    height: 400px;
 }

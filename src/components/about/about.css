@@ -1,9 +1,7 @@
 .componentDiv{
     padding: 2%;
-    background: url("../../zdjęcia/tła/bokeh-Obraz\ Tomislav\ Jakupec\ z\ Pixabay.png") center;
-    /* background: url("../../zdjęcia/tła/bokeh-g0e2717490_1920.png") center; */
-
-    /* background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url("../../zdjęcia/tła/silver_Obraz\ Barbara\ A\ Lane\ z\ Pixabay.jpg"); */
+    
+     background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("../../zdjęcia/tła/waves-gc12b35fc6_192.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,19 +23,33 @@
     flex: 0 80%;
     color: rgb(37,148,212);
     text-shadow: 0.05em 0.05em 0.05em rgb(220,220,220);
+    letter-spacing: 2px;
     
 
 
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.3rem; 
 }
 .aboutOrchestraDiv p{
     text-align: justify;
     
 }
 
+p{
+    font-size: 1.2rem; 
+    padding: 1%;
+}
+
 
 .orchestraPhoto{
     display: flex;
     flex: 0 80%;
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px rgb(37,148,212);
 }
 
 

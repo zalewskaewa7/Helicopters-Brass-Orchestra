@@ -1,48 +1,64 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  createBrowserRouter,
-  RouterProvider,
+  HashRouter,
+  Routes,
+  Route,
+  //  Link,
+  // createBrowserRouter,
+  // RouterProvider,
 } from "react-router-dom";
 import './index.css';
 import Home from './components/home/Home';
 import About from './components/about/About'
 import reportWebVitals from './reportWebVitals';
 import Contact from './components/contact/Contact';
-import Gallery from './components/gallery/Gallery';
+// import Gallery from './components/gallery/Gallery';
 import Collaboration from './components/collaboration/Collaboration';
+import AboutDarkMode from './components/about/AboutDarkMode';
 // import LogoBar from './components/layout/logoBar';
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
+// const router = createBrowserRouter([
+  
+//   {
+//     path: "/",
+//     element: <Home />,
 
-  },
-  {
-    path: "/o nas",
-    element: <About />,
-  },
-  {
-    path: "/kontakt",
-    element: <Contact />,
-  },
-  {
-    path: "/galeria",
-    element: <Gallery />,
-  },
-  {
-    path: "/współpraca",
-    element: <Collaboration />,
-  },
-]);
+//   },
+//   {
+//     path: "/o nas",
+//     element: <About />,
+//   },
+//   {
+//     path: "/kontakt",
+//     element: <Contact />,
+//   },
+//   {
+//     path: "/galeria",
+//     element: <Gallery />,
+//   },
+//   {
+//     path: "/współpraca",
+//     element: <Collaboration />,
+//   },
+// ]);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
+  <React.StrictMode >
+    {/* <RouterProvider router={router}/> */}
+    <HashRouter basename={process.env.PUBLIC_URL}>
+      <Routes >
+              <Route path = '/' element = { <Home /> } />
+              <Route path = '/o nas' element = { <About /> } />
+              <Route path = '/kontakt' element = { <Contact /> } />
+              <Route path = '/galeria' element = { <AboutDarkMode /> } />
+              <Route path = '/współpraca' element = { <Collaboration /> } />
+
+      </Routes>
+    </HashRouter>
   </React.StrictMode>
 );
 

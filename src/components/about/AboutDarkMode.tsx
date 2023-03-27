@@ -6,14 +6,12 @@ import ImgAchievements from "../../zdjęcia/z Internetu/mokswidnik.jpg"
 import ImgHistory from "../../zdjęcia/z Internetu/archiwaOrkiestry(z historiaSwidnika).jpg"
 import ImgAboutOrchestra from "../../zdjęcia/z Internetu/radioLublin.jpg"
 
-
-function About() {
-  const[darkMode, setDarkMode] =useState<boolean>(true);
-
+function AboutDarkMode() {
+    const[darkMode, setDarkMode] =useState<boolean>(true);
   return (
     <div>
-        <LogoBar />
-        <div className={darkMode ? 'componentDivDark' : 'componentDiv'}>
+        <LogoBar/>
+        <div className='componentDiv'>
           <div className="aboutOrchestraDiv">
 
           <h1 className="aboutOrchestraTitle">Historia Orkiestry</h1>
@@ -73,4 +71,4 @@ Rok 2022 kończy już 7 dekadę działania orkiestry która, wciąż aktywnie uc
   )
 }
 
-export default About
+export default AboutDarkMode

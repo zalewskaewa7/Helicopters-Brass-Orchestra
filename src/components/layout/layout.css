@@ -3,21 +3,18 @@
     flex: 1 100%;
     flex-direction: row;
     flex-wrap: wrap;
-     /* background: url("../../zdjęcia/tła/hd-wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay\ .jpg") center;  */
-    /* background: url("../../zdjęcia/tła/wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay.jpg") center; */
-    /* background: url("../../zdjęcia/tła/silver_Obraz\ Barbara\ A\ Lane\ z\ Pixabay.jpg");  */
-    /* background: url("../../zdjęcia/tła/template-Obraz\ ...♡...\ z\ Pixabay.jpg"); */
-    /* background: url("../../zdjęcia/tła/bokeh-Obraz\ Barbara\ A\ Lane\ z\ Pixabay\ .jpg") center; */
-    /* background: url("../../zdjęcia/tła/water-Obraz\ wal_172619\ z\ Pixabay\ .jpg") center; */
+   
     background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("../../zdjęcia/tła/wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay.jpg");
-    /* background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("../../zdjęcia/tła/silver_Obraz\ Barbara\ A\ Lane\ z\ Pixabay.jpg"); */
 
 
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-color: rgb(4,4,4); */
     justify-content:space-between;
     align-items: center;
+}
+.logoBarComponentDark{
+    background: url("../../zdjęcia/tła/ciemne/abstract-gd300d5288_1920.png");
+
 }
 .logoBarComponent_Menu{
     display: flex;
@@ -28,7 +25,7 @@
 .logoImg {
     padding: 0.5%;
     flex:0 12%;
-    width: 20%;
+    width: 10%;
     height: auto;
 }
 
@@ -61,22 +58,30 @@
 .menuUl li a {
     text-decoration: none;
     color:rgb(37,148,212);
+    letter-spacing: 1.5px;
     font-size: 1.3rem;
     font-weight: 700;
     text-shadow: 0.08em 0.08em 0.08em rgb(220,220,220);
 }
 .componentDiv{
     padding: 2%;
-    /* background: url("../../zdjęcia/tła/template-Obraz\ ...♡...\ z\ Pixabay.jpg"); */
-    /* background: url("../../zdjęcia/tła/silver_Obraz\ Barbara\ A\ Lane\ z\ Pixabay.jpg") center;  */
-    /* background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../../zdjęcia/tła/silver_Obraz\ Barbara\ A\ Lane\ z\ Pixabay.jpg") center; */
-    /* background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url("../../zdjęcia/tła/wallpaper-Obraz\ PayPal.meFelixMittermeier\ z\ Pixabay.jpg"); */
-
+   
     background: url("../../zdjęcia/tła/bokeh-Obraz\ Tomislav\ Jakupec\ z\ Pixabay.png");
-    /* background: url("../../zdjęcia/tła/bokeh-Obraz\ Barbara\ A\ Lane\ z\ Pixabay\ .jpg"); */
+
+
 
     background-repeat: no-repeat;
     background-size: cover;
    
     color: rgb(49,57,68);
+}
+.componentDivDark{
+    padding: 2%;
+    background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url("../../zdjęcia/tła/ciemne/banner.jpg");
+    background: url("../../zdjęcia/tła/ciemne/banner.jpg");
+
+    background-size: cover;
+   
+
+    color: rgb(220,220,220);
 }
