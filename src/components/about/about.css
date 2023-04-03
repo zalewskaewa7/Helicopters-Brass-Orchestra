@@ -1,7 +1,7 @@
 .componentDiv{
     padding: 2%;
     
-     background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("../../zdjęcia/tła/waves-gc12b35fc6_192.jpg");
+     background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("../../zdjęcia/tła/pixabayWaves.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
