@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import "../layout/layout.css"
+import React from 'react'
+import "../layout/css/layout.css"
 import "./about.css"
 import LogoBar from "../layout/logoBar"
 import ImgAchievements from "../../zdjęcia/z Internetu/mokswidnik.jpg"
@@ -7,7 +7,6 @@ import ImgHistory from "../../zdjęcia/z Internetu/archiwaOrkiestry(z historiaSw
 import ImgAboutOrchestra from "../../zdjęcia/z Internetu/radioLublin.jpg"
 
 function AboutDarkMode() {
-    const[darkMode, setDarkMode] =useState<boolean>(true);
   return (
     <div>
         <LogoBar/>

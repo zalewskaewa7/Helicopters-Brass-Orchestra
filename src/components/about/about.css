@@ -1,7 +1,7 @@
 .componentDiv{
     padding: 2%;
     
-     background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("../../zdjęcia/tła/pixabayWaves.jpg");
+     background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("../../zdjęcia/tła/waves-gc12b35fc6_192.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,29 +36,40 @@ h2{
 }
 .aboutOrchestraDiv p{
     text-align: justify;
+    padding: 4%;
+
     
 }
 
 p{
     font-size: 1.2rem; 
     padding: 1%;
+    line-height: 2;
 }
 
 
 .orchestraPhoto{
     display: flex;
-    flex: 0 80%;
+    flex: 0 60%;
     border-radius: 2%;
     box-shadow: 5px 5px 5px rgb(37,148,212);
 }
 
 
 
-@media all and (max-width: 960px) {
+@media all and (max-width: 1000px) {
     .title{
         display: flex;
     flex: 0 80%;
         justify-content:flex-end;
 
     }
+}
+
+@media all and (max-width: 680px) {
+    .orchestraPhoto{
+        flex: 0 80%;
+        width: 80%;
+        height: auto;
+}
 }

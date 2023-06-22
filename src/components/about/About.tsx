@@ -1,19 +1,18 @@
-import React, {useState} from 'react'
-import "../layout/layout.css"
+import React from 'react'
+import "../layout/css/layout.css"
 import "./about.css"
 import LogoBar from "../layout/logoBar"
-import ImgAchievements from "../../zdjęcia/z Internetu/mokswidnik.jpg"
-import ImgHistory from "../../zdjęcia/z Internetu/archiwaOrkiestry(z historiaSwidnika).jpg"
-import ImgAboutOrchestra from "../../zdjęcia/z Internetu/radioLublin.jpg"
+import ImgAchievements from "../../zdjęcia/mokswidnik.jpg"
+import ImgHistory from "../../zdjęcia/HenrykMaruszak.jpg"
+import ImgAboutOrchestra from "../../zdjęcia/radioLublin.jpg"
 
 
 function About() {
-  const[darkMode, setDarkMode] =useState<boolean>(true);
 
   return (
     <div>
         <LogoBar />
-        <div className={darkMode ? 'componentDivDark' : 'componentDiv'}>
+        <div className="componentDivDark">
           <div className="aboutOrchestraDiv">
 
           <h1 className="aboutOrchestraTitle">Historia Orkiestry</h1>
