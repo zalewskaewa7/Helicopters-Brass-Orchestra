@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import "./layout.css";
+import "./css/layout.css";
 
 
 function menu() {

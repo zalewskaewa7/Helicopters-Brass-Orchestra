@@ -1,15 +1,33 @@
 import React , {useState} from 'react';
+import {Link} from "react-router-dom";
 import logo from "../../zdjęcia/logo/logoOK/logonew_HBO.png";
-import "./layout.css";
+import "./css/layout.css";
+import {TfiMenu} from "react-icons/tfi";
+import MobileMenu from '../layout/mobileMenu';
+
 
 import Menu from "./menu";
 function LogoBar(){    
-  const[darkMode, setDarkMode] =useState<boolean>(true);
+
+  const[showMobileMenu, setShowMobileMenu]=useState(false)
+
+  function showMenu(){
+    setShowMobileMenu(!showMobileMenu)
+  }
         return (
-    <div className={darkMode ? "logoBarComponentDark" :"logoBarComponent"}>
+    <div className="componentDivDark">
       <div className='logoBarComponent_Menu'>
-<img src={logo} alt="logo Helicopters Brass Orchestra" className="logoImg"></img>
+        <Link to="/" className='logoLinkToHome'>
+<img src={logo} alt="logo Helicopters Brass Orchestra" className="logoImg">
+
+</img>
+</Link>
     <Menu />
+    <TfiMenu className="hamburger" onClick={()=>showMenu()}/>
+    {
+      showMobileMenu ? <MobileMenu /> : ""
+    }
+
     </div>
      
     
