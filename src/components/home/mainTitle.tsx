@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import "./home.css";
+import "./css/home.css";
 
 
 function mainTitle() {
