@@ -1,0 +1,36 @@
+.gallery {
+    display: flex;
+    flex: 1 100%;
+    order: 2;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    background-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url("../../zdjęcia/tła/ciemne/banner.jpg");
+    background: url("../../zdjęcia/tła/ciemne/banner.jpg");
+
+    background-size: cover;
+   
+
+    color: rgb(220,220,220);
+}
+.elementHBOimg {
+    flex: 0 20%;
+    width: 15%;
+    height: auto;
+    margin: 2%;
+    border-radius: 2px 
+}
+
+
+
+@media all and (max-width: 680px) { 
+    .elementHBOimg {
+        flex: 0 45%;
+        width: 10%;
+        height: auto;
+        margin: 2%;
+}   
+}
+
+
+
