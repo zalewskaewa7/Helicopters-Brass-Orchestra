@@ -1,0 +1,77 @@
+.collaborationH1Titile{
+    display: flex;
+    justify-content: center;
+    flex: 0 80%;
+    color: rgb(37,148,212);
+    text-shadow: 0.05em 0.05em 0.05em rgb(220,220,220);
+    letter-spacing: 2px;
+    padding: 2%;
+    margin: 0;
+}
+
+.linkToKontakt{
+    display:block;
+    height: 10%;
+    font-size: 2.5rem;
+    margin:2%;
+    padding: 1%;
+    cursor: pointer;
+    color:rgb(220,220,220);
+    text-align:center;
+    text-shadow: 0.05em 0.05em 0.05em rgb(37,148,212);;
+
+    background-color: rgb(212,53,38);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+.linkToKontakt:hover{
+    transform:  scale(1.05);
+}
+.divPhotoOrchestra{
+    display: flex;
+    justify-content: center;
+    flex: 0 80%;
+}
+
+.imgPhotoOrchestra{
+    width:80%;
+    height:auto;
+   
+}
+.collaborationList{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 0 80%;
+    margin: 0;
+}
+
+.collaborationList li{
+    list-style-type: none;
+    margin: 0 2%;
+    padding: 1%;
+    font-size: 1.3em;
+    line-height: 2;
+    text-align: center;
+}
+
+.noteIMG{
+    display: flex;
+    justify-content: center;
+
+    width: 30%;
+    height: 20%;
+}
+@media all and (max-width: 680px) {
+    .collaborationH1Titile{
+        text-align: center;
+    }
+    
+    .noteIMG{
+        width: 50%;
+        color: white;
+    }
+
+}
